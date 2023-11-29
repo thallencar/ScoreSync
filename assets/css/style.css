@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+
+body{
+    
+    background-color: #1E1E1E;
+    height: 100vh;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;   
+}
+
+.menu_frase{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.938rem;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;   
+}
+
+.menu_botao{
+    color: #fff;
+    width: 16.875rem;
+    height: 4rem;
+    border-radius: 14px;
+
+    background-color: #00C8A4;
+    border: none;
+    
+    font-size: 25px;
+    font-size: 700;
+
+    
+}
