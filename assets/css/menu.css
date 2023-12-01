@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+body{
+    
+    background-color: #1E1E1E;
+    height: 100vh;
+    
+}
+
+.card{
+    width: 18rem;
+}
+
+.card-img{
+    width: 295px;
+    height: 155px;
+    border-radius: 14px;
+}
