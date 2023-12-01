@@ -7,10 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
 
 body{
-    
     background-color: #1E1E1E;
     height: 100vh;
-    
 }
 
 .btn-menu{
@@ -54,7 +52,9 @@ b{
 .card{
     width: 295px;
     height: 372px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
     padding: 12px;
     border: 4px solid #00C8A4;
     border-radius: 14px;
@@ -72,7 +72,7 @@ b{
     font-size: 30px;
     font-weight: 700;
     color: #fff;
-    margin-top: 11px;
+    margin-top: 12px;
 }
 
 .card-text{
@@ -80,7 +80,7 @@ b{
     font-size: 15px;
     font-weight: 500;
     color: #fff;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 .btn-card{
@@ -93,4 +93,8 @@ b{
     font-size: 1.563rem;
     font-weight: 700;
     margin-top: 30px;
+}
+
+footer{
+    color: #1E1E1E;
 }
