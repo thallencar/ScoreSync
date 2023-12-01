@@ -10,3 +10,12 @@ body{
     background-color: #1E1E1E;
     height: 100vh;
 }
+
+.btn-menu{
+    margin: 27px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
