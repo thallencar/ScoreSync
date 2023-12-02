@@ -19,3 +19,33 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* table {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+table, th, td {
+border: 1px solid #00C8A4;
+}
+  
+th, td {
+    padding: 10px;
+}
+  
+th {
+background-color: #00C8A4;
+color: #fff;
+} */
+
+
+/* .score-table,.score, .player, .score-cell{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.player{
+    font-size: 15px;
+} */
