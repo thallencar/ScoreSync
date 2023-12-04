@@ -35,29 +35,34 @@ table{
 
 }
 
+.table-container{
+    margin-top: 35px;
+}
+
 .table-modo-classico {
     border: 4px solid #fff; 
     border-radius: 18px;
     position: relative;
     margin-top: 20px; 
     margin: 40px 20px 0px 20px;
-    height: 338px;
+    height: 350px;
 
 }
 
 .table-title {
-   font-family: 'Montserrat', sans-serif;
-   font-size: 20px;
-   font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
     background-color: #00C8A4;
     color: #fff;
-    height: 30px;
+    height: 25px;
     width: 200px;
-    border-radius: 14px;
-    padding: 0 10px;
+    border-radius: 30px;
+    padding: 3px 10px;
     position: absolute;
-    top: -12px; 
+    top: -19px; 
     left: 50%;
+    border: 5px solid #00C8A4;
     transform: translateX(-50%);
 }
 
@@ -69,7 +74,9 @@ table{
     font-size: 16px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+
 }
+
 
 .score-cell, #score-table{
     border: 9px solid #00C8A4;
@@ -79,12 +86,14 @@ table{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     border-radius: 14px;
+    padding-top: 5px;
 }
 
 #score-table{
     margin: 10px;
     display: flex;
     justify-content: center;
+    border-spacing: 4px;
 }
 
 .score-cell{
@@ -93,5 +102,15 @@ table{
     border-radius: 5px;
     padding: 13px;
     margin-bottom: 10px;
+    padding: 15px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
 }
 
