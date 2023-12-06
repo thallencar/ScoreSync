@@ -7,68 +7,66 @@
     <link rel="icon" href="../../assets/img/clock.png" />
     <link rel="stylesheet" href="../../assets/css/modo-classico.css" />
   </head>
-<body>
+  <body>
     <div class="btn-menu">
-        <a href="../pages/menu.html">
-          <img src="../../assets/img/menu.svg" alt="Menu" />
-        </a>
+      <a href="../pages/menu.html">
+        <img src="../../assets/img/menu.svg" alt="Menu" />
+      </a>
+    </div>
+    <div class="logo">
+      <img
+        src="../../assets/img/logo.svg"
+        alt="Logo ScoreSync: 'Score' em verde água, 'o' substituído por um relógio sincronizado, 'Sync' em branco"
+      />
+    </div>
+    <span>Modo Clássico</span>
+    <div class="table-modo-classico">
+      <div class="table-title">Tabela de Pontuação</div>
+      <div class="table-container">
+        <table id="score-table">
+          <tr class="score">
+            <th>⠀⠀⠀⠀⠀⠀⠀⠀⠀</th>
+            <th class="vitoria">V</th>
+            <th class="empate">E</th>
+            <th class="derrota">D</th>
+            <th class="pontos">Pts</th>
+          </tr>
+          <tr>
+            <td class="player">Player 1</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+          <tr>
+            <td class="player">Player 2</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+          <tr>
+            <td class="player">Player 3</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+          <tr>
+            <td class="player">Player 4</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+        </table>
       </div>
-      <div class="logo">
-        <img
-          src="../../assets/img/logo.svg"
-          alt="Logo ScoreSync: 'Score' em verde água, 'o' substituído por um relógio sincronizado, 'Sync' em branco"
-        />
-      </div>
-      <span>Modo Clássico</span>
-      <div class="table-modo-classico">
-        <div class="table-title">
-          Tabela de Pontuação
-        </div>
-        <div class="table-container">
-          <table id="score-table">
-            <tr class="score">
-              <th>⠀⠀⠀⠀⠀⠀⠀⠀⠀</th>
-              <th class="vitoria">V</th>
-              <th class="empate">E</th>
-              <th class="derrota">D</th>
-              <th class="pontos">Pts</th>
-            </tr>
-            <tr>
-              <td class="player">Player 1</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-            </tr>
-            <tr>
-              <td class="player">Player 2</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-            </tr>
-            <tr>
-              <td class="player" >Player 3</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-            </tr>
-            <tr>
-              <td class="player">Player 4</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-              <td class="score-cell">0</td>
-            </tr>
-          </table>
-      </div>
-      </div>
-      <p>V = Vitória/E = Empate/D = Derrota/Pts = Pontos.</p>
+    </div>
+    <p>V = Vitória/E = Empate/D = Derrota/Pts = Pontos.</p>
 
-      <div class="reset-container">
-      <button class= "btn-reset" "resetScores()">Reiniciar</button>
-      </div>
-</body>
-<script src="../../assets/js/modoClassico.js"></script>
+    <div class="reset-container">
+      <button class="btn-reset" onclick="reiniciarPlacar()">Reiniciar</button>
+    </div>
+  </body>
+  <script src="../../assets/js/modoClassico.js"></script>
 </html>
