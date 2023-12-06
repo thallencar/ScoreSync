@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScoreSync</title>
+    <link rel="icon" href="../../assets/img/clock.png" />
+    <link rel="stylesheet" href="../../assets/css/xadrez.css" />
+  </head>
+  <body>
+    <div class="btn-menu">
+      <a href="../pages/menu.html">
+        <img src="../../assets/img/menu.svg" alt="Menu" />
+      </a>
+    </div>
+    <div class="logo">
+      <img
+        src="../../assets/img/logo.svg"
+        alt="Logo ScoreSync: 'Score' em verde água, 'o' substituído por um relógio sincronizado, 'Sync' em branco"
+      />
+    </div>
+    <span>Xadrez</span>
+    <div class="table-xadrez">
+      <div class="table-title">Tabela de Pontuação</div>
+      <div class="table-container">
+        <table id="score-table">
+          <tr class="score">
+            <th>⠀⠀⠀⠀⠀⠀⠀⠀⠀</th>
+            <th class="vitoria">V</th>
+            <th class="empate">E</th>
+            <th class="derrota">D</th>
+            <th class="xeque-mate">XM</th>
+          </tr>
+          <tr>
+            <td class="player">Player 1</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+          <tr>
+            <td class="player">Player 2</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p>V = Vitória/E = Empate/D = Derrota/XM = Xeque-Mate.</p>
+
+    <div class="reset-container">
+      <button class="btn-reset" onclick="reiniciarPlacar()">Reiniciar</button>
+    </div>
+  </body>
+  <script></script>
+</html>
