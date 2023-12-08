@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScoreSync</title>
+    <link rel="icon" href="../../assets/img/clock.png" />
+    <link rel="stylesheet" href="../../assets/css/modo-classico.css" />
+  </head>
+  <body>
+    <div class="btn-menu">
+      <a href="../pages/menu.html">
+        <img src="../../assets/img/menu.svg" alt="Menu" />
+      </a>
+    </div>
+    <div class="logo">
+      <img
+        src="../../assets/img/logo.svg"
+        alt="Logo ScoreSync: 'Score' em verde água, 'o' substituído por um relógio sincronizado, 'Sync' em branco"
+      />
+    </div>
+    <span>Blackjack</span>
+    <div class="table-bj-pts-gerais">
+      <div class="table-title">Pontuação
+        Geral
+      </div>
+      <div class="table-container">
+        <table id="score-table">
+          <tr class="score">
+            <th>⠀⠀⠀⠀⠀⠀⠀⠀⠀</th>
+            <th class="vitoria">V</th>
+            <th class="empate">E</th>
+            <th class="derrota">D</th>
+            <th class="pontos">Pts</th>
+          </tr>
+          <tr>
+            <td class="player">Player 1</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+          <tr>
+            <td class="player">Player 2</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+          <tr>
+            <td class="player">Player 3</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+          <tr>
+            <td class="player">Player 4</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+            <td class="score-cell">0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+    <div class="table-bj-rodadas">
+        <div class="table-title">Rodadas</div>
+        <div class="table-container">
+          <table id="score-table">
+            <tr class="score">
+              <th>⠀⠀⠀⠀⠀⠀⠀⠀⠀</th>
+              <th class="vitoria">21</th>
+              <th class="empate">+D</th>
+              <th class="derrota">-D</th>
+              <th class="pontos">AE</th>
+            </tr>
+            <tr>
+              <td class="player">Player 1</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+            </tr>
+            <tr>
+              <td class="player">Player 2</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+            </tr>
+            <tr>
+              <td class="player">Player 3</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+            </tr>
+            <tr>
+              <td class="player">Player 4</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+              <td class="score-cell">0</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    <p>V = Vitória/E = Empate/D = Derrota/Pts = Pontos/21 = Blackjack/+D = Aposta maior que a do dealer/-D = Aposta menor que a do dealer/AE = Aposta estourada.</p>
+
+    <div class="reset-container">
+      <button class="btn-reset" onclick="reiniciarPlacar()">Reiniciar</button>
+    </div>
+  </body>
+  <script src="../../assets/js/modoClassico.js"></script>
+</html>

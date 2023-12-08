@@ -8,7 +8,7 @@
 
 body{
     background-color: #1E1E1E;
-    height: 100vh;
+    height: 1880px;
 }
 
 .btn-menu{
@@ -93,8 +93,4 @@ b{
     font-size: 1.563rem;
     font-weight: 700;
     margin-top: 30px;
-}
-
-footer{
-    color: #1E1E1E;
 }
