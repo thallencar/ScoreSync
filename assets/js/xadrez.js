@@ -51,6 +51,7 @@ function reiniciarPlacar() {
     player.vitoria = 0;
     player.empate = 0;
     player.derrota = 0;
+    player.xequeMate = 0;
 
     const vitoriaCell = player.nextElementSibling;
     const empateCell = vitoriaCell.nextElementSibling;
