@@ -1,33 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   height: 100vh;
 }
 
 .logo {
-  height: 50px;
-  margin: 125px 0 0 auto;
+  height: 5rem;
+  margin: 12.5rem 0 0 auto;
 }
 
 .menu_frase {
-  font: 500 0.813rem "Raleway", sans-serif;
+  font: 500 1.3rem "Raleway", sans-serif;
   text-align: center;
   color: var(--cor-secundaria);
   display: flex;
   justify-content: center;
-  margin: 0.938rem 0 0 auto;
+  margin: 1.5rem 0 0 auto;
 }
 
 .botao {
   display: flex;
   justify-content: center;
-  margin: 12.813rem 0 0 auto;
+  margin: 20.5rem 0 0 auto;
 }
 
 .menu_botao {
-  font: 500 1.563rem "Raleway", sans-serif;
+  font: 500 2.5rem "Raleway", sans-serif;
   color: var(--cor-secundaria);
   background-color: var(--cor-primaria);
   border: none;
-  border-radius: 0.875rem;
-  width: 14.375rem;
-  height: 3.75rem;
+  border-radius: 1.4rem;
+  width: 23rem;
+  height: 6rem;
 }

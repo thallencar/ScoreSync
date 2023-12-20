@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap");
 
 body {
@@ -16,7 +20,7 @@ body {
 }
 
 .btn-menu {
-  margin: 27px;
+  margin: 2.7rem;
 }
 
 .logo {
@@ -25,76 +29,76 @@ body {
 }
 
 .title {
-  font: 400 22px "Montserrat", sans-serif;
+  font: 400 2.2rem "Montserrat", sans-serif;
   color: var(--cor-secundaria);
-  margin-top: 10px;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
 }
 
 table {
-  height: 350px;
+  height: 35rem;
 }
 
 .table-container {
-  margin-top: 35px;
+  margin-top: 3.5rem;
 }
 
 .table-title {
-  font: 700 20px "Montserrat", sans-serif;
+  font: 700 2rem "Montserrat", sans-serif;
   text-align: center;
   color: var(--cor-secundaria);
   background-color: var(--cor-primaria);
-  border-radius: 30px;
-  border: 5px solid var(--cor-primaria);
-  height: 25px;
-  width: 200px;
-  padding: 3px 10px;
+  border-radius: 3rem;
+  border: 0.5rem solid var(--cor-primaria);
+  height: 2.5rem;
+  width: 20rem;
+  padding: 0.3rem 1rem;
   position: absolute;
-  top: -19px;
+  top: -1.9rem;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .player {
-  font: 700 16px "Montserrat", sans-serif;
+  font: 700 1.6rem "Montserrat", sans-serif;
   color: var(--cor-secundaria);
   background-color: var(--cor-primaria);
-  border: 4px solid var(--cor-primaria);
-  padding: 20px 0 20px 0;
+  border: 0.4rem solid var(--cor-primaria);
+  padding: 2rem 0 2rem 0;
 }
 
 .score-cell,
 #score-table {
-  font: 700 20px "Montserrat", sans-serif;
+  font: 700 2rem "Montserrat", sans-serif;
   color: var(--cor-secundaria);
   background-color: var(--cor-primaria);
-  border: 9px solid var(--cor-primaria);
-  border-radius: 14px;
-  padding-top: 5px;
+  border: 0.9rem solid var(--cor-primaria);
+  border-radius: 1.4rem;
+  padding-top: 0.5rem;
 }
 
 #score-table {
   display: flex;
   justify-content: center;
-  border-spacing: 4px;
-  margin: 10px;
+  border-spacing: 0.4rem;
+  margin: 1rem;
 }
 
 .score-cell {
   background-color: var(--backgrounds);
-  border: 1px solid var(--cor-primaria);
-  border-radius: 5px;
-  margin-bottom: 10px;
-  padding: 15px;
+  border: 0.1rem solid var(--cor-primaria);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
 }
 
 .subtitle {
-  font: italic 15px "Montserrat", sans-serif;
+  font: italic 1.5rem "Montserrat", sans-serif;
   color: var(--cor-secundaria);
   text-align: center;
-  margin-top: 5px;
-  padding: 15px;
+  margin-top: 0.5rem;
+  padding: 1.5rem;
 }
 
 .reset-container {
@@ -103,11 +107,11 @@ table {
 }
 
 .btn-reset {
-  font: 400 20px "Montserrat", sans-serif;
+  font: 400 2rem "Montserrat", sans-serif;
   color: var(--cor-secundaria);
   background-color: var(--cor-primaria);
   border: none;
-  border-radius: 14px;
-  margin-top: 15px;
-  padding: 15px 160px;
+  border-radius: 1.4rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem 16rem;
 }
