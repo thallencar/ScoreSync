@@ -11,7 +11,7 @@ Mantenha-se atualizado com suas pontuações em tempo real, desafiando amigos pa
 A interface do ScoreSync é amigável e intuitiva, proporcionando facilidade de navegação para uma experiência de usuário agradável.
 
 ## 🖥️ O Projeto
-![Figma do Projeto](https://media.discordapp.net/attachments/1075996497407123509/1181120427515445349/image.png?ex=657fe71e&is=656d721e&hm=0d4832647d7492f59ce852ad329a6a7b8dfe29b3bccc59533be15286eb423881&=&format=webp&quality=lossless&width=569&height=424)
+![Figma do Projeto](image.png)
 
 ## 📂 Status do projeto
 O projeto em andamento.
